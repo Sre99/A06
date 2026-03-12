@@ -9,26 +9,17 @@ body {
     margin: 0;
 }
 
-a:focus, a:hover {
+a: focus, a: hover {
     font-style: italic;
     color: var(--accent-color);
 }
-5
 h1 { font-size: 150%; }
-h2 {
-    font-size: 130%;
-    color: var(--accent-color)
-}
+h2 { font-size: 130%; color: var(--accent-color); }
 h3 { font-size: 105%; }
 
-header img {
-    float: left;
-}
-header h3{
-    font-size: 130%;
-    font-style: italic;
-    text-indent: 30px;
-}
+header img { float: left; }
+header h2 { text-indent: 30px; font-size: 170%; }
+header h3 { text-indent: 30px; font-size: 130%; font-style: italic; }
 
 .large {
     font-size: 125%;
@@ -38,6 +29,4 @@ main {
     clear: left;
 }
 
-footer p {
-    text-align: center;
-}
+footer p { text-align: center; }
